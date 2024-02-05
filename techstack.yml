@@ -1,0 +1,368 @@
+repo_name: taiki-aoi/Hinecraft
+report_id: cd051ff582d0afb039dd255a37d2ae66
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-05T19:02:00+00:00'
+requested_by: taiki-aoi
+provider: github
+branch: master
+detected_tools_count: 30
+tools:
+- name: GLSL
+  description: A high-level C-style language
+  website_url: https://www.khronos.org/opengl/wiki/Core_Language_(GLSL)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6548/default_a66025fbe8f221c489bdaac3a99d84e5f138cbbd.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft
+  detection_source: Repo Metadata
+- name: Haskell
+  description: An advanced purely-functional programming language
+  website_url: http://www.haskell.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1069/oCgm29k9.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-02-01 05:45:14.000000000 Z
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-02-01 05:45:14.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft
+  detection_source: Repo Metadata
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-02-01 05:45:14.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-02-01 05:45:14.000000000 Z
+- name: Persistent
+  website_url: http://www.stackage.org/package/persistent
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4234/no-img-open-source.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-04-10 06:29:45.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft
+  detection_source: Repo Metadata
+- name: Transformers
+  description: State-of-the-art Natural Language Processing for Pytorch and TensorFlow
+    2.0
+  website_url: https://huggingface.co/transformers/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: NLP / Sentiment Analysis
+  image_url: https://img.stackshare.io/service/12240/no-img.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-04-10 06:29:45.000000000 Z
+- name: FTGL
+  description: |-
+    A Haskell binding for the portable TrueType to OpenGL font rendering library FTGL.
+    This package provides OpenGL with polygonal
+  package_url: http://hackage.haskell.org/FTGL
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-04-10 06:29:45.000000000 Z
+- name: GLFW-b
+  description: Bindings to GLFW
+  package_url: http://hackage.haskell.org/GLFW-b
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-02-18 06:38:10.000000000 Z
+- name: GLUtil
+  description: Helpers for working with shaders
+  package_url: http://hackage.haskell.org/GLUtil
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-04-10 06:29:45.000000000 Z
+- name: OpenGL
+  description: A Haskell binding for the OpenGL graphics system
+  package_url: http://hackage.haskell.org/OpenGL
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-04-10 06:29:45.000000000 Z
+- name: OpenGLRaw
+  description: |-
+    OpenGLRaw is a raw Haskell binding for the OpenGL 4.6 graphics system and
+    lots of OpenGL extensions
+  package_url: http://hackage.haskell.org/OpenGLRaw
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-04-10 06:29:45.000000000 Z
+- name: array
+  package_url: http://hackage.haskell.org/array
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-02-01 05:45:14.000000000 Z
+- name: base
+  package_url: http://hackage.haskell.org/base
+  version: '4.6'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-02-01 05:45:14.000000000 Z
+- name: bytestring
+  description: An efficient compact
+  package_url: http://hackage.haskell.org/bytestring
+  version: '0.10'
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-02-18 06:38:10.000000000 Z
+- name: cereal
+  package_url: http://hackage.haskell.org/cereal
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-04-10 06:29:45.000000000 Z
+- name: containers
+  description: Assorted concrete container types
+  package_url: http://hackage.haskell.org/containers
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-04-10 06:29:45.000000000 Z
+- name: directory
+  description: |-
+    This library provides a basic set of operations for manipulating files and
+    directories in a portable way
+  package_url: http://hackage.haskell.org/directory
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-02-01 05:45:14.000000000 Z
+- name: linear
+  description: Types and combinators for linear algebra on free vector spaces
+  package_url: http://hackage.haskell.org/linear
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-04-10 06:29:45.000000000 Z
+- name: mtl
+  description: MTL is a collection of monad classes
+  package_url: http://hackage.haskell.org/mtl
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-02-01 05:45:14.000000000 Z
+- name: persistent
+  description: Hackage documentation generation is not reliable
+  package_url: http://hackage.haskell.org/persistent
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-04-10 06:29:45.000000000 Z
+- name: persistent-sqlite
+  description: Persistence interface for Haskell allowing multiple storage methods
+  package_url: http://hackage.haskell.org/persistent-sqlite
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-04-10 06:29:45.000000000 Z
+- name: persistent-template
+  description: Hackage documentation generation is not reliable
+  package_url: http://hackage.haskell.org/persistent-template
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-04-10 06:29:45.000000000 Z
+- name: process
+  description: Library for dealing with system processes
+  package_url: http://hackage.haskell.org/process
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-02-01 05:45:14.000000000 Z
+- name: text
+  description: An efficient packed, immutable Unicode text type
+  package_url: http://hackage.haskell.org/text
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-04-10 06:29:45.000000000 Z
+- name: transformers
+  package_url: http://hackage.haskell.org/transformers
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-04-10 06:29:45.000000000 Z
+- name: vector
+  description: An efficient implementation of Int-indexed arrays
+  package_url: http://hackage.haskell.org/vector
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/hackage/image.png
+  detection_source_url: https://github.com/taiki-aoi/Hinecraft/blob/master/Hinecraft.cabal
+  detection_source: Hinecraft.cabal
+  last_updated_by: tetsuya mishima
+  last_updated_on: 2014-02-01 05:45:14.000000000 Z
